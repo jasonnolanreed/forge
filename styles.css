@@ -24,6 +24,7 @@ hr {
 	margin: 2.5em auto;
 	background-color: #000;
 	border: none; outline: none;
+	border-radius: 2px;
 }
 
 .hidden { display: none; }
