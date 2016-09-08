@@ -1,0 +1,30 @@
+body {
+	width: 70%;
+	max-width: 1000px;
+	margin: 0 auto;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	background: #393939;
+	color: #fff;
+}
+
+h1 {
+	margin: 0 0 -10vw;
+	font-size: 20vw;
+	font-family: "Swanky and Moo Moo", cursive;
+}
+h2 {
+	margin: -12vw 0 -2vw;
+	font-size: 7vw;
+	font-family: "Kadwa", serif;
+	text-transform: uppercase;
+}
+
+hr {
+	display: block;
+	width: 65%;
+	height: 8px;
+	margin: 2.5em auto;
+	background-color: #444;
+	border: none; outline: none;
+}
