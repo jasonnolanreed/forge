@@ -1,23 +1,19 @@
 body {
 	width: 70%;
 	max-width: 1000px;
+	min-width: 250px;
 	margin: 0 auto;
 	font-family: "Raleway", sans-serif;
 	text-align: center;
-	background: #393939;
-	color: #fff;
+	background: #fff;
+	color: #111;
 }
 
-h1 {
-	margin: 0 0 -10vw;
-	font-size: 20vw;
-	font-family: "Swanky and Moo Moo", cursive;
-}
-h2 {
-	margin: -12vw 0 -2vw;
-	font-size: 7vw;
-	font-family: "Kadwa", serif;
-	text-transform: uppercase;
+h1, h2, h3, h4 { font-family: "Kadwa", serif; }
+
+img {
+	display: block;
+	width: 100%;
 }
 
 hr {
@@ -25,6 +21,13 @@ hr {
 	width: 65%;
 	height: 8px;
 	margin: 2.5em auto;
-	background-color: #444;
+	background-color: #000;
 	border: none; outline: none;
+}
+
+.main-logo {
+	width: 50%;
+	max-width: 1000px;
+	min-width: 250px;
+	margin: 10% auto;
 }
