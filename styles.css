@@ -25,19 +25,26 @@ hr {
 	border: none; outline: none;
 }
 
-.main-logo {
+.hidden { display: none; }
+
+.logo {
 	width: 50%;
 	max-width: 1000px;
 	min-width: 250px;
-	margin: 10% auto;
+	margin: 7.5% auto;
 }
 
 .social-link { text-decoration: none !important; }
 
 .social-icon {
 	display: inline-block;
-	width: 100px;
+	width: 60px;
 	margin: 0.5em;
 	text-decoration: none !important;
 }
 .social-icon:hover { opacity: 0.75; }
+
+@media (max-width: 900px) {
+	.logo-horizontal { display: none; }
+	.logo-vertical { display: block; }
+}
